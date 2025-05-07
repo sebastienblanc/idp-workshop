@@ -1,0 +1,8 @@
+apiVersion: sebi.org/v1alpha1
+kind: DevoxxUk
+metadata:
+  name: my-greeting
+spec:
+  image: nginx
+  replicas: 2
+  greeting: "Hello from operator!"
