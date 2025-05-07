@@ -55,7 +55,7 @@ spec:
                 fieldRef:
                   fieldPath: metadata.namespace
             - name: GREETING
-              value: "Hello"
+              value: "Hoi"
           image: docker.io/sebi2706/devoxxuk-hello:1.2
           imagePullPolicy: Always
           name: devoxxuk-hello
