@@ -2,7 +2,7 @@
 
 ## Pre-requisites
 
-* Access to a Kubernetes CLuster (local like Kind or Minikube is okay).
+* Access to a Kubernetes CLuster (local like Kind or [Minikube](https://minikube.sigs.k8s.io/docs/start/?arch=%2Fmacos%2Farm64%2Fstable%2Fbinary+download) is okay).
 * Github account : fork and clone this [repo](https://github.com/sebastienblanc/idp-workshop)
 
 ## Deploying a workload on Kubernetes
