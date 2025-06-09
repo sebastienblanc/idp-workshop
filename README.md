@@ -17,7 +17,7 @@ If you are using Minkube you can expose the service like this : `minikube servic
 
 Update the environment variable in the manifest and apply again. 
 
-Make sure to delete your depoyments before continuing the next steps. 
+Make sure to delete your deployments before continuing the next steps. 
 
 ## Installing and using ArgoCD to introduce GitOps on your IDP
 
@@ -42,7 +42,7 @@ Then deploy the controller of the operator :
 
 Now take a look at the custom resource : `devoxxuk-operator/manifests/myCR.yml` , modify if you want it. 
 
-Commit & push it to root `manifests` folder of the repo. 
+Delete the existing manifest.yml and commit & push it to root `manifests` folder of the repo. 
 
 Make sure ArgoCD picks it up and apply the custom resource on your cluster. 
 

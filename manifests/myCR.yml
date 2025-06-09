@@ -1,0 +1,9 @@
+apiVersion: sebi.org/v1alpha1
+kind: DevoxxUk
+metadata:
+  name: my-greeting-1
+  namespace: default
+spec:
+  image: docker.io/sebi2706/devoxxuk-hello:1.0
+  replicas: 2
+  greeting: "Hello"
