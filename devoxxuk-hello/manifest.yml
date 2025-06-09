@@ -56,7 +56,7 @@ spec:
                   fieldPath: metadata.namespace
             - name: GREETING
               value: "Hello"
-          image: docker.io/sebi2706/devoxxuk-hello:1.2
+          image: docker.io/sebi2706/devoxxuk-hello:1.0
           imagePullPolicy: Always
           name: devoxxuk-hello
           ports:

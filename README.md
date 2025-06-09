@@ -13,7 +13,9 @@ Go to the `devoxxuk-hello` folder and apply the k8s manifest :
 
 Check that the app get deployed, try to access the service. 
 
-Update the environement variable in the manifest and apply again. 
+If you are using Minkube you can expose the service like this : `minikube service devoxxuk-hello`
+
+Update the environment variable in the manifest and apply again. 
 
 Make sure to delete your depoyments before continuing the next steps. 
 
