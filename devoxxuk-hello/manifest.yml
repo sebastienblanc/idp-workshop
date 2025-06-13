@@ -33,7 +33,7 @@ metadata:
     app.kubernetes.io/managed-by: quarkus
   name: devoxxuk-hello
 spec:
-  replicas: 3
+  replicas: 
   selector:
     matchLabels:
       app.kubernetes.io/version: 1.0.0-SNAPSHOT
